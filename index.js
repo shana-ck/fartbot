@@ -38,5 +38,5 @@ bot.on("quote", async(reply) => {
 console.log(post.uri)
 
 await setTimeout(() => {
-    bot.off()
+    bot.removeAllListeners()
 }, 300000)

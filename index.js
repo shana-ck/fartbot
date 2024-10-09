@@ -15,7 +15,7 @@ const bot = new Bot({
 });
 
 await bot.login({
-    identifier: process.env.BSKY_USERNAME,
+    identifier: process.env.BSKY_HANDLE,
     password: process.env.BSKY_PASSWORD,
 })
 

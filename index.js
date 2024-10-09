@@ -36,3 +36,7 @@ bot.on("quote", async(reply) => {
 })
 
 console.log(post.uri)
+
+await setTimeout(() => {
+    bot.off()
+}, 300000)

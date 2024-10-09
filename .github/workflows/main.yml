@@ -18,7 +18,7 @@ jobs:
         # with:
         #   node-version-file: ".nvmrc"
       - run: npm i
-      - run: npm run build
+      # - run: npm run build
       - name: Send post
         run: npm run start
         env:
